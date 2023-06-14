@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "./logo.svg";
-
+//import logo from "./logo.svg";
+import logozelda from "./logozelda.png";
 function SiteNav() {
   return (
     <React.Fragment>
@@ -12,7 +12,7 @@ function SiteNav() {
         <div className="container">
           <a className="navbar-brand" href="/">
             <img
-              src={logo}
+              src={logozelda}
               width="40"
               height="40"
               className="d-inline-block align-top"
@@ -69,10 +69,10 @@ function SiteNav() {
               </li>
               <li className="nav-item">
                 <Link
-                  to={"./jobs"}
+                  to={"./zelda"}
                   className="nav-link active px-2 text-white link-button"
                 >
-                  Jobs
+                  Zelda
                 </Link>
               </li>
               <li className="nav-item">

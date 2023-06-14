@@ -179,7 +179,7 @@ function TimeEntriesTable() {
           <Col className="align-items-center pt-1">
             <Dropdown onSelect={onDropDown}>
               <Dropdown.Toggle variant="dark" id="dropdown-basic">
-                Dropdown Button
+                Employee Entries
               </Dropdown.Toggle>
               <Dropdown.Menu>{workplace.dashboardItems}</Dropdown.Menu>
             </Dropdown>
