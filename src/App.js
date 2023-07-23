@@ -8,6 +8,7 @@ import {Routes, Route} from "react-router-dom"
 import ZeldaHome from './components/zelda/ZeldaHome'
 import SydneyPage from './components/sydney/SydneyPage';
 import Cat from './components/cats/Cat';
+import Register from './components/navbar/Register';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <Route path='/games' element={<TicTacToe></TicTacToe>}></Route>
       <Route path='/test' element={<TimeEntriesTable></TimeEntriesTable>}></Route>
       <Route path='/login' element={<LogIn></LogIn>}></Route>
+      <Route path='/register' element={<Register></Register>}></Route>
       <Route path='/zelda' element={<ZeldaHome></ZeldaHome>}></Route>
      </Routes>
     </div>

@@ -2,27 +2,34 @@ import { TextField, Button } from "@mui/material";
 import React from "react";
 import { Card, Col, Container, Form, Row } from "react-bootstrap";
 
-function LogIn() {
+function Register() {
   return (
     <React.Fragment>
       <Form>
         <Container className="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-5">
           <Card className="d-flex justify-content-center shadow">
-            <h1 className="mt-3">Log In</h1>
+            <h1 className="mt-3">Register</h1>
             <Col className="mx-5 mb-4 pt-2">
               <Row>
                 <TextField
                   color="secondary"
-                  label="Username"
+                  label="First Name"
                   variant="standard"
                 ></TextField>
-              </Row>
-              <Row>
                 <TextField
                   color="secondary"
-                  label="Password"
+                  label="Middle Name"
                   variant="standard"
-                  type="password"
+                ></TextField>
+                <TextField
+                  color="secondary"
+                  label="Email"
+                  variant="standard"
+                ></TextField>
+                <TextField
+                  color="secondary"
+                  label="Phone"
+                  variant="standard"
                 ></TextField>
               </Row>
             </Col>
@@ -37,4 +44,4 @@ function LogIn() {
     </React.Fragment>
   );
 }
-export default LogIn;
+export default Register;
